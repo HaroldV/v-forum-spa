@@ -10,13 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: HelloWorld
-    },
-    {
-      path: '/threads',
       name: 'Threads',
       component: ThreadsPage
-    }
+    },
+    // {
+    //   path: '/threads',
+    //   name: 'Threads',
+    //   component: ThreadsPage
+    // }
   ]
 })

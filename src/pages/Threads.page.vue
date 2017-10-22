@@ -10,7 +10,7 @@
 
       </div>
       <paginate
-        :page-count="threadsMetaData.total"
+        :page-count="threadsMetaData.total / 4"
         :click-handler="getThreadsData"
         :prev-text="'Prev'"
         :next-text="'Next'"
